@@ -1,1 +1,1 @@
-# working-with-concurrency-in-go
+# Curso Udemy - Working With Concurrency In GO
