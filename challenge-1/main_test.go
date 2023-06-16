@@ -4,17 +4,13 @@ import (
 	"io"
 	"os"
 	"strings"
-	"sync"
 	"testing"
 )
 
 func Test_updateMessage(t *testing.T) {
-	var wg sync.WaitGroup
 
 	wg.Add(1)
-
-	go updateMessage("epsilon", &wg)
-
+	go updateMessage("epsilon")
 	wg.Wait()
 
 	if msg != "epsilon" {
