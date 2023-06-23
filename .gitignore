@@ -19,3 +19,6 @@
 
 # Go workspace file
 go.work
+
+final-project/db-data/redis/dump.rdb
+final-project/db-data/postgres
